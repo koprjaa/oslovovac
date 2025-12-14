@@ -1,4 +1,4 @@
-# Czech Vocative Generator
+# Vocative Generator
 
 ## 1. Overview
 
