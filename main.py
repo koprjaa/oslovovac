@@ -1,6 +1,6 @@
 
 """
-Project: Oslovovac
+Project: Vocative Generator
 File: main.py
 Description: Entry point for the application that sets up configuration and executes the main processing pipeline.
 Author: Jan Alexandr Kopřiva jan.alexandr.kopriva@gmail.com
@@ -35,7 +35,7 @@ async def process_all_names_main_task(shutdown_handler: GracefulShutdownHandler)
         logger.error(f"Input file {input_file} not found. Exiting.")
         # Create dummy file for testing if it doesn't exist
         logger.info(f"Creating dummy input file {input_file} for testing.")
-        dummy_data = {'ID': range(1, 21), FILE_CONFIG['INPUT_COLUMN_NAME']: [f'Jméno Příjmení {i}' for i in range(1, 21)]}
+        dummy_data = {'ID': range(1, 21), FILE_CONFIG['INPUT_COLUMN_NAME']: [f'First Name Last Name {i}' for i in range(1, 21)]}
         pd.DataFrame(dummy_data).to_csv(input_file, index=False, encoding='utf-8')
         # return # Uncomment to stop if dummy data isn't desired
 

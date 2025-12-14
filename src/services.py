@@ -1,6 +1,6 @@
 
 """
-Project: Oslovovac
+Project: Vocative Generator
 File: src/services.py
 Description: Core service layer implementing checkpoint management, API interaction, and batch processing logic.
 Author: Jan Alexandr Kopřiva jan.alexandr.kopriva@gmail.com

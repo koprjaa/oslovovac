@@ -1,6 +1,6 @@
 
 """
-Project: Oslovovac
+Project: Vocative Generator
 File: src/config.py
 Description: Configuration constants for logging, HTTP requests, API endpoints, and file paths.
 Author: Jan Alexandr Kopřiva jan.alexandr.kopriva@gmail.com

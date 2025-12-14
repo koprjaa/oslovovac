@@ -1,6 +1,6 @@
 
 """
-Project: Oslovovac
+Project: Vocative Generator
 File: src/utils.py
 Description: Utility functions for graceful shutdown handling and aiohttp session management.
 Author: Jan Alexandr Kopřiva jan.alexandr.kopriva@gmail.com

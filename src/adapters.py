@@ -1,6 +1,6 @@
 
 """
-Project: Oslovovac
+Project: Vocative Generator
 File: src/adapters.py
 Description: Adaptive components for dynamically adjusting delays, worker counts, and batch sizes based on performance.
 Author: Jan Alexandr Kopřiva jan.alexandr.kopriva@gmail.com

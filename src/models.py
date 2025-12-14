@@ -1,6 +1,6 @@
 
 """
-Project: Oslovovac
+Project: Vocative Generator
 File: src/models.py
 Description: Data models defining successful and failed name processing results.
 Author: Jan Alexandr Kopřiva jan.alexandr.kopriva@gmail.com
